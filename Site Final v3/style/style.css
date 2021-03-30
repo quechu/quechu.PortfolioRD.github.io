@@ -5,45 +5,16 @@ body{
 	width:100%;
     height:100%;
 	overflow-x: hidden;
-	font-family: Ubuntu, Helvetica, sans-serif;
+	font-family: 'Homemade Apple', cursive;
 	color: #333;
 }
-@media only screen and (max-width:1500px) {
-body{
-    background-color:  #f3f3f3;
-    margin:0 auto;
-    width:100%;
-    height:100%;
-    overflow-x: hidden;
-    font-family: Ubuntu, Helvetica, sans-serif;
-    color: #333;
-}
-
-}
 
 
 
-#navbar {
-    padding: 10px 10px;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    transition: 0.4s;
-    z-index: 1;
-}
 
-#navbar ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 1;
-    background-color: transparent;
 
-}
+
+
 
 li {
     float: right;
@@ -58,18 +29,10 @@ li a {
     margin: 0px 0px;
     padding: 10px 10px;
     text-decoration: none;
-    font-family: Noto Sans, sans-serif;
+    font-family: 'Homemade Apple', cursive;
     font-size: 85%;
 }
 
-li a:hover:not(.active) {
-    color: #a80000;
-}
-
-
-nav li a:hover{
-    background: red;
-}
 
 
 .banniere
@@ -100,52 +63,42 @@ h1.Bienvenue{
 }
 
 div.presentation{
-	height: 400px;
+	height: 300px;
 }
 
 
 h3.aPropos{
     color: #10b1c7;
     position: relative;
-    top: 20%;
+    top: 10%;
 	left: 10%;
 
 }
 
-hr.aPropos{
-	width: 90px;
-	position: relative;
-	top: 20%;
-	left: -37%;
-}
+
 
 p.p1{
     position: relative;
-    top: 20%;
+    top: 15%;
 	left: 10%;
 }
 
 h3.moncv{
     color: #10b1c7;
     position: relative;
-    top: -27%;
-	left: 42%;
+    top: -55%;
+	left: 45%;
 
 }
 
-hr.moncv{
-	width: 95px;
-	position: relative;
-	top: -27%;
-    left: -5%;
-}
+
 
 button.button1{
 	background-color: #f3f3f3;
 	font-size: 14px;
 	padding: 10px 25px;
 	position: relative;
-    top: -20%;
+    top: -50%;
     left: 47%;
   	border: 1px solid #050505;
 }
@@ -153,21 +106,15 @@ button.button1{
 h3.plus{
     color: #10b1c7;
     position: relative;
-    top: -252px;
-	left: 1300px;
+    top: -95%;
+	left: 70%;
 }
 
-hr.plus{
-	width: 95px;
-	position: relative;
-	top: -242px;
-	left: 405px;
-}
 
 p.p2{
     position: relative;
-    top: -242px;
-	left: 1300px;
+    top: -90%;
+	left: 70%;
 }
 
 
@@ -186,7 +133,7 @@ h3.transition{
 }
 
 div.ppe{
-    height: 550px;
+    height: 650px;
     font-family: 'Homemade Apple', cursive;
     font-size:20px;
     background:url('https://images.pexels.com/photos/172277/pexels-photo-172277.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
@@ -226,7 +173,7 @@ ul{
     -moz-transition:all 1s ease;
     -webkit-transition:all 1s ease;
     top:80px;
-    left: 35px;
+    left: -2%;
   }
   
   
@@ -263,7 +210,14 @@ li:nth-child(6){
 li:nth-child(7){
     transform:rotate(10deg);
 }
-  
+
+li:nth-child(8){
+    transform:rotate(0deg);
+}
+
+li:nth-child(9){
+    transform:rotate(-10deg);
+}
 p{
     margin:-15px 0 0 0;
 }
@@ -296,10 +250,8 @@ span.highlight-text a{
 
 
 div.stage{
-	background-image: url(../images/Background-Blue.jpg);
-    background-size: cover;
+	background-color:#10b1c7;
     height: 200px;
-    background-position: center;
     margin-top: -50px;
 }
 
@@ -339,14 +291,38 @@ figure.stage1 {
     padding: 5px;
     max-width: 500px;
     margin: auto;
-    margin-left: 50px;
+    margin-left: 5%;
     margin-top: 200px;
 }
 
 figcaption.stage1 {
     background-color: #222;
     color: #fff;
-    font: italic smaller sans-serif;
+    font-family: 'Homemade Apple', cursive;
+    padding: 3px;
+    text-align: center;
+}
+
+img.stage2{
+	max-width: 500px;
+    max-height: 250px;
+}
+
+figure.stage2{
+    border: thin #c0c0c0 solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 500px;
+    margin: auto;
+    margin-left: 70%;
+    margin-top: -280px;
+}
+
+figcaption.stage2 {
+    background-color: #222;
+    color: #fff;
+    font-family: 'Homemade Apple', cursive;
     padding: 3px;
     text-align: center;
 }
@@ -364,10 +340,44 @@ figcaption.stage1 {
 
 }
 
+div.veille{
+	background-color:#10b1c7;
+    height: 200px;
+    margin-top: 450px;
+}
+
+h3.veille{
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 75px;
+    font-size: 300%;
+}
 
 
+img.veille{
+	max-width: 500px;
+    max-height: 250px;
+}
 
+figure.veille {
+    border: thin #c0c0c0 solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 500px;
+    margin: auto;
+    margin-left: center;
+    margin-top: 200px;
+}
 
+figcaption.veille {
+    background-color: #222;
+    color: #fff;
+    font-family: 'Homemade Apple', cursive;
+    padding: 3px;
+    text-align: center;
+}
 
 
 
