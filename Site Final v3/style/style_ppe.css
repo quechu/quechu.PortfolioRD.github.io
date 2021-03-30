@@ -6,7 +6,7 @@ body{
 	overflow-x: auto;
     min-width:600px;
     max-width:2000px;
-    font-family: 'Homemade Apple', cursive;
+    font-family: Ubuntu, Helvetica, sans-serif;
     color: #333;
 }
 
@@ -16,15 +16,14 @@ p {
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
-    font-family: 'Homemade Apple', cursive;
+    font-family: Noto Sans;
     font-size: 110%;
 
 }
 
 
-
 h3{
-	font-family: 'Homemade Apple', cursive;
+	font-family: Noto Sans, sans-serif;
 	font-size: 130%;
 }
 
@@ -58,7 +57,7 @@ h3{
 
 .banniere
 {
-	background-image: url(../images/ppe1_site.PNG);
+	background-image: url(../images/ppe1_site.JPG);
     background-repeat: no-repeat;
     background-size: cover;
     margin-top: -50px;
@@ -139,11 +138,11 @@ img.bouton-code{
 .etape-projet {
     position: relative;
     background-color: #fff;
-    height: 500px;
+    height: 5000px;
 }
 
 .titre-etape-projet {
-    margin-top: 100px;
+    margin-top: 0px;
     margin-left: 80px;
     padding-top: 90px;
     font-size: 40px;
@@ -156,75 +155,47 @@ img.bouton-code{
     margin-left: 550px;
     padding-top: 50px;
     font-size: 25px;
-    font-weight: 500px;
+    font-weight: 500;
 }
 
-div.images{
-    height: 550px;
-    font-family: 'Homemade Apple', cursive;
-    font-size:20px;
-    background-size:cover;
-    background-repeat:repeat;
-    color:#000;
+.img1{
+    max-width: 500px;
+    max-height: 450px;
+
 }
 
-ul.images{
-    position:absolute;
+figure.img1 {
+    border: thin #c0c0c0 solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 500px;
+    margin: auto;
     margin-left: 500px;
-    padding:0;
-  }
-  
-li.images{
-    text-align:center;
-    display:inline-block;
-    list-style:none;
-    position:relative;
-    border:solid 1px #fff;
-    background:#fff;
-    box-shadow:0 0 15px 0px #555;
-    transition:all 1s ease;
-    -o-transition:all 1s ease;
-    -moz-transition:all 1s ease;
-    -webkit-transition:all 1s ease;
-    top:200px;
-    left: 35px;
-  }
-  
-  
-  li:hover.images{
-    top:0px;
-    opacity:0.5;
-  }
-  
-  li:first-child.images {
-      transform:rotate(0deg);
-  }
-  
-  li:nth-child(2).images{
-      transform:rotate(0deg);
-      order: 2;
-  }
-  
-  li:nth-child(3).images{
-      transform:rotate(0deg);
-  } 
-  
-p.images{
-    margin:-15px 0 0 0;
+    margin-top: 100px;
 }
-  
-.light{
-    border-radius:50%;
-    position:absolute;
-    left:0;
-    right:0;
-    width:700px;
-    height:700px;
-    background:#fff;
-    filter:blur(100px);
-    opacity:0.3;
-    pointer-events:none;
-  }
+
+figcaption.img1 {
+    background-color: #222;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+}
+
+.img2{
+    width: 32%;
+    height: auto;
+    margin-top: -550px;
+    margin-left: 1200px;
+}
+
+.img3{
+    width: 32%;
+    height: auto;
+    margin-top: 50px;
+    margin-left: 500px;
+}
 
 
 

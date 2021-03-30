@@ -6,7 +6,7 @@ body{
 	overflow-x: auto;
     min-width:600px;
     max-width:2000px;
-    font-family: 'Homemade Apple', cursive;
+    font-family: Ubuntu, Helvetica, sans-serif;
     color: #333;
 }
 
@@ -16,14 +16,14 @@ p {
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
-    font-family: 'Homemade Apple', cursive;
+    font-family: Noto Sans;
     font-size: 110%;
 
 }
 
 
 h3{
-	font-family: 'Homemade Apple', cursive;
+	font-family: Noto Sans, sans-serif;
 	font-size: 130%;
 }
 
@@ -82,7 +82,7 @@ h1.titre{
 }
 
 div.presentation{
-    height: 250px;
+    height: 150px;
 }
 
 h1.projet{
@@ -116,7 +116,7 @@ h1.contexte{
     margin-left: 500px;
     font-size: 18px;
     line-height: 26px;
-    font-family: 'Homemade Apple', cursive;
+    font-family: Ubuntu, Helvetica, sans-serif;
     color: #333;
 }
 
@@ -164,68 +164,20 @@ span.highlight-text{
     font-weight: 500;
 }
 
-div.images{
-    height: 550px;
-    font-family: 'Homemade Apple', cursive;
-    font-size:20px;
-    background-size:cover;
-    background-repeat:repeat;
-    color:#000;
+.img1{
+    width: 30%;
+    height: auto;
+    margin-top: 10px;
+    margin-left: 450px;
+
 }
 
-ul.images{
-    position:absolute;
-    margin-left: 500px;
-    padding:0;
-  }
-  
-li.images{
-    text-align:center;
-    display:inline-block;
-    list-style:none;
-    position:relative;
-    border:solid 1px #fff;
-    background:#fff;
-    box-shadow:0 0 15px 0px #555;
-    transition:all 1s ease;
-    -o-transition:all 1s ease;
-    -moz-transition:all 1s ease;
-    -webkit-transition:all 1s ease;
-    top:200px;
-    left: 35px;
-  }
-  
-  
-li:hover.images{
-    top:0px;
-    opacity:0.5;
+.img2{
+    width: 60%;
+    height: auto;
+    margin-top: -150px;
+    margin-left: 550px;
 }
-  
-li:first-child.images {
-      transform:rotate(0deg);
-}
-  
-li:nth-child(2).images{
-      transform:rotate(0deg);
-      order: 2;
-}
-  
-p.images{
-    margin:-15px 0 0 0;
-}
-  
-.light{
-    border-radius:50%;
-    position:absolute;
-    left:0;
-    right:0;
-    width:700px;
-    height:700px;
-    background:#fff;
-    filter:blur(100px);
-    opacity:0.3;
-    pointer-events:none;
-  }
 
 
 
